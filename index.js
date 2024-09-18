@@ -1,10 +1,10 @@
-// const element = document.querySelector('.my-element');
-// element.classList.add('animate__animated', 'animate__backInDown');
+const element = document.querySelector('.my-element');
+element.classList.add('animate__animated', 'animate__backInDown');
 
-// element.addEventListener('animationend', () => {
-//     element.style.color = "#e03a3a";
-//     element.style.borderColor = "#ffff";
-// });
+element.addEventListener('animationend', () => {
+    element.style.color = "#e03a3a";
+    element.style.borderColor = "#ffff";
+});
 
 
 
