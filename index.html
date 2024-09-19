@@ -17,63 +17,23 @@
     <!-- Блок 1  -->
     <header class="header">
       <img class="logo_block1" src="assets/images/logosvg.svg" alt="logo" />
+
       <div class="navigation">
-        <div class="burger">
-          <svg
-            width="42"
-            height="20"
-            viewBox="0 0 42 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M20.5193 20C9.18649 20 -0.000545502 18.8014 -0.000545502 17.3229C-0.000545502 15.8444 9.18649 14.6458 20.5193 14.6458C31.852 14.6458 41.0391 15.8444 41.0391 17.3229C41.0391 18.8014 31.852 20 20.5193 20Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-            <path
-              d="M20.5193 13.7028C9.18649 13.7028 -0.000545502 12.7838 -0.000545502 11.65C-0.000545502 10.5163 9.18649 9.59723 20.5193 9.59723C31.852 9.59723 41.0391 10.5163 41.0391 11.65C41.0391 12.7838 31.852 13.7028 20.5193 13.7028Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-            <path
-              d="M20.5193 5.60858C31.8519 5.60858 41.0391 6.27824 41.0391 7.1046C41.0391 7.93096 31.8519 8.60062 20.5193 8.60062C9.18658 8.60062 -0.000545502 7.93096 -0.000545502 7.1046C-0.000545502 6.27824 9.18658 5.60858 20.5193 5.60858Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-            <path
-              d="M20.5193 3.11563C31.8519 3.11563 41.0391 3.45046 41.0391 3.86348C41.0391 4.2765 31.8519 4.61134 20.5193 4.61134C9.18658 4.61134 -0.000545502 4.2765 -0.000545502 3.86348C-0.000545502 3.45046 9.18658 3.11563 20.5193 3.11563Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-            <path
-              d="M41.0391 1.74478C41.0391 1.95129 31.8519 2.1187 20.5193 2.1187C9.18658 2.1187 -0.000545502 1.95129 -0.000545502 1.74478C-0.000545502 1.53827 9.18658 1.37085 20.5193 1.37085C31.8519 1.37085 41.0391 1.53827 41.0391 1.74478Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-            <path
-              d="M-0.000545502 0.186963C-0.000545502 0.0838654 9.18658 0 20.5193 0C31.8519 0 41.0391 0.0838654 41.0391 0.186963C41.0391 0.290061 31.8519 0.373926 20.5193 0.373926C9.18658 0.373926 -0.000545502 0.290061 -0.000545502 0.186963Z"
-              fill="white"
-              fill-opacity="0.74"
-            />
-          </svg>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle"> </label>
 
-          <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-              <span></span>
-            </label>
-
-            <ul class="menu__box">
-              <li><a class="menu__item" href="#">Галерея</a></li>
-              <li><a class="menu__item" href="#">Целевая аудитория</a></li>
-              <li>
-                <a class="menu__item" href="#">Драйверы развития проекта</a>
-              </li>
-              <li>
-                <a class="menu__item" href="#">Предложение к сотрудничеству</a>
-              </li>
-              <a href="tg://resolve?domain=имя_пользователя">
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Галерея</a></li>
+            <li><a class="menu__item" href="#">Целевая аудитория</a></li>
+            <li>
+              <a class="menu__item" href="#">Драйверы развития проекта</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">Предложение к сотрудничеству</a>
+            </li>
+            <div class="img_nav_header">
+              <a href="https://t.me/Ruslan01051980">
                 <img
                   src="assets/images/streamline_telegram.svg"
                   alt="Telegram"
@@ -87,16 +47,16 @@
                   target="_blank"
                 />
               </a>
-            </ul>
-          </div>
-
-          <nav class="wide_navigation">
-            <a>Галерея</a>
-            <a>Целевая аудитория </a>
-            <a>Драйверы развития проекта</a>
-            <a>Предложение к сотрудничеству</a>
-          </nav>
+            </div>
+          </ul>
         </div>
+
+        <nav class="wide_navigation">
+          <a class="wide_menu" href="#">Галерея</a>
+          <a class="wide_menu" href="#">Целевая аудитория</a>
+          <a class="wide_menu" href="#">Драйверы развития проекта</a>
+          <a class="wide_menu" href="#">Предложение к сотрудничеству</a>
+        </nav>
       </div>
     </header>
     <main>

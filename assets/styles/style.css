@@ -1,7 +1,6 @@
 .logo_block1{
-    width: 15%;
-    height: 45px;
-   
+    width: 25%;
+    height: 70px;
 
 }
 .header{
@@ -28,74 +27,49 @@
 #menu__toggle {
     opacity: 0;
   }
-  
-  #menu__toggle:checked ~ .menu__btn > span {
-    transform: rotate(45deg);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::before {
-    top: 0;
-    transform: rotate(0);
-  }
-  #menu__toggle:checked ~ .menu__btn > span::after {
-    top: 0;
-    transform: rotate(90deg);
-  }
+
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
     left: 0;
   }
-  
+
   .menu__btn {
     display: flex;
+    background-image: url("../images/burger.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     align-items: center;
     position: fixed;
     top: 20px;
     right: 20px;
-  
-    width: 26px;
-    height: 26px;
-  
+    width: 41px;
+    height: 20px;
     cursor: pointer;
     z-index: 1;
+    @media screen and (min-width:760px) {
+        display: none;}
   }
-  
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-    display: block;
-    position: absolute;
-  
-    width: 100%;
-    height: 2px;
-  
-    background-color: #616161;
-  
-    transition-duration: .25s;
-  }
-  .menu__btn > span::before {
-    content: '';
-    top: -8px;
-  }
-  .menu__btn > span::after {
-    content: '';
-    top: 8px;
+
+  #menu__toggle:checked ~ .menu__btn {
+    background-image: url("../images/button_close.png");
+    width: 32px;
+    height: 32px ;
   }
   
   .menu__box {
     display: block;
     position: fixed;
     visibility: hidden;
+    font-family: Vela Sans;
     top: 0;
     left: -100%;
-  
-    width: 300px;
+    width: 100%;
     height: 100%;
-  
     margin: 0;
     padding: 80px 0;
     list-style: none;
     background-color: #f9f9fa;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0px 6px rgba(238, 236, 236, 0.2);
     transition-duration: .25s;
   }
   
@@ -110,17 +84,35 @@
     transition-duration: .25s;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #f3f6f7;
   }
 
-
+.img_nav_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 70px;   
+}
 
 .wide_navigation{
     display: none;
     @media screen and (min-width:760px) {
         display: flex;
-        justify-content: space-around;
-        width: 300 px;
+        justify-content: space-between;
+        width: 80%;
+
     }
-        
+       
     }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+
+    }
+.wide_menu{
+    text-decoration: none;
+    text-wrap:wrap ;
+    
+}
