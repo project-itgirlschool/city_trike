@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Vela Sans';
+    font-weight: medium;
+    src: url(/assets/fonts/VelaSans-Medium.woff);
+}
+@font-face {
+    font-family: 'Vela Sans';
+    src: url(/assets/fonts/VelaSans-Regular.woff);
+}
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Medium.woff);
+    font-weight: medium;
+}
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Regular.woff);
+}
+@font-face {
+    font-family: 'Nuqun';
+    src: url(/assets/fonts/Nuqun-Regular.otf);
+}
+@font-face {
+    font-family: 'Bicubik';
+    src: url(/assets/fonts/bicubik-regular.woff);
+}
+
+.our_team {
+@media screen and (min-width: 375px) and (max-width: 768px)
+{
+    background-color: rgba(33, 33, 33, 1);
+    /* width: 476px; */
+    height: 846px;    
+}
+}
+
+.our_team_title {
+@media screen and (min-width: 375px) and (max-width: 768px)
+    {
+    font-family: 'Vela Sans';
+    color: #FFFFFF;
+    font-size: 24px;
+}
+}
+
+.red_cube {
+@media screen and (min-width: 375px) and (max-width: 768px)
+{
+    padding-right: 20px;
+    width: 13px;
+    height: 13px;
+}
+}
+
+.name_team_member:before {
+@media screen and (min-width: 375px) and (max-width: 768px)
+{
+    content: "";
+    background-image: url(../image/white_circle.png);
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    }
+}
+
+.name_team_member {
+@media screen and (min-width: 375px) and (max-width: 768px)
+        {
+        font-family: 'Mazzard';
+        color: #FFFFFF;
+        font-size: 16px;        
+    }
+}
+
+.team_member_regalia {
+@media screen and (min-width: 375px) and (max-width: 768px)
+        {
+        font-family: 'Mazzard';
+        color: #FFFFFF;
+        font-size: 14px;          
+    }
+}
+
+    .team_member {
+        @media screen and (min-width: 375px) and (max-width: 768px)
+        {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+    .title_our_time {
+        @media screen and (min-width: 375px) and (max-width: 768px)
+{
+        padding: 10px;
+        padding-left: 20px;
+    }
+}
+
+    .meet_our_team {
+        @media screen and (min-width: 375px) and (max-width: 768px)
+{
+        padding-left: 20px;      
+}
+    }
+
+    .team_member {
+        @media screen and (min-width: 375px) and (max-width: 768px)
+{
+        padding-top: 20px;
+    }
+}
+
+.our_target_audience {
+    @media screen and (min-width: 375px) and (max-width: 768px) {
+    background-color: #141414;
+}
+}
+
+.our_target_audience p {
+    @media screen and (min-width: 375px) and (max-width: 768px) {
+    font-family: 'Vela Sans';
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 20px;       
+}
+}
+
+.vector1 {
+    @media screen and (min-width: 375px) and (max-width: 768px) {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 10px;
+    height: 10px;
+}
+}
+
+.vector2 {
+    @media screen and (min-width: 375px) and (max-width: 768px) {
+    padding-left: 320px;
+    padding-top: 10px;
+    width: 10px;
+    height: 10px;
+}
+}
