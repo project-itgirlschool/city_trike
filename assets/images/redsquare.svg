@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg width="13.000000" height="13.000000" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<desc>
 			Created with Pixso.
@@ -9,4 +10,14 @@
 		</linearGradient>
 	</defs>
 	<rect id="разделитель красный квадратик" width="13.000000" height="13.000000" fill="url(#paint_linear_88_242_0)" fill-opacity="1.000000"/>
+=======
+<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="13" height="13" fill="url(#paint0_linear_88_242)"/>
+<defs>
+<linearGradient id="paint0_linear_88_242" x1="0" y1="6.5" x2="13" y2="6.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EB4E4E"/>
+<stop offset="0.956667" stop-color="#C31111"/>
+</linearGradient>
+</defs>
+>>>>>>> f72fe2c44520a32e9d1c3c8ef9d6ed48fb7f623c
 </svg>
