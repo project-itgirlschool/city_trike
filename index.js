@@ -8,9 +8,38 @@ element.addEventListener('animationend', () => {
 
 
 
+// Код работает только для первой одной кнопки 
 
-document.getElementById('toggleButton').addEventListener('click', function() {
-    const formContainer = document.getElementById('formContainer');
-    formContainer.classList.toggle('hidden');
+// document.getElementById('toggleButton').addEventListener('click', function() {
+//     const formContainer = document.getElementById('formContainer');
+//     formContainer.classList.toggle('hidden-form');
+//     event.preventDefault();
+// });
+
+
+const buttons = document.querySelectorAll('.toggleButton');
+buttons.forEach((button, index) => {
+    button.addEventListener('click', function() {
+        const formContainer = document.getElementById(`formContainer${index + 1}`);
+        formContainer.classList.toggle('hidden-form');
+    });
 });
 
+
+const video = document.getElementById("video-traik-block2");
+const playPauseBtn = document.getElementById("playPauseBtn");
+
+    playPauseBtn.addEventListener("click", function() {
+        if (video.paused) {
+            video.play();
+            playPauseBtn.textContent = "Pause";  
+        } else {
+            video.pause();
+            playPauseBtn.textContent = "▶";   
+        }
+    });
+
+
+   
+  
+   

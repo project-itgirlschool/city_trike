@@ -31,32 +31,31 @@
             <h1 class="heading-block2">Управляй временем</h1>
             <h2 class="heading2-block2">Городской трайк</h2>
             <!-- <p class="paragraphe-one-block2">Начать сотрудничать</p> -->
-            <div class="test-1">
-                <div class="one">
+            <div class="block2-container-img">
+                <div class="block2-image-traik">
              <a href="" rel="noopener noreferrer"> <img class="img-traik-block2" src="/assets/images/block-2 -controle-time/traik.jpeg" alt="Трайк" width="158px" /></a>  
             </div>
-            <div class="two">
+            <div class="second-block-button">
                 <p class="paragraphe-one-block2">Начать сотрудничать</p>
-              
-                <button  id="toggleButton" class="btn" > <a href="" rel="noopener noreferrer"><img  src="/assets/images/block-2 -controle-time/discover.png" alt="Pointer" width="80px"></a>
+                
+                <button  id="toggleButton" class="btn-form-block-two toggleButton" > <a href="" rel="noopener noreferrer"><img  src="/assets/images/block-2 -controle-time/discover.png" alt="Pointer" width="80px"></a>
                 </button>
               
- <div id="formContainer" class="hidden" >
-  
+ <div id="formContainer" class="hidden-form" >
   <form action="https://formspree.io/f/xblrengv" method="POST"  id="myForm">
-
+    <input type="hidden" name="_language" value="ru" />
   <label>
     <input type="text" class="text-input" name="last-name" placeholder="Фамилия" required="" >
   </label>
   <label>
-    <input type="text" class="text-input" name="first-name" placeholder="Имя" required="" autocomplete="on">
+    <input type="text" class="text-input" name="first-name" placeholder="Имя" required="" >
   </label>
 
   <label>
-    <input type="text" class="text-input" name="first-name" placeholder="Отчество"  autocomplete="on">
+    <input type="text" class="text-input" name="first-name" placeholder="Отчество"  >
   </label>
   <label>
-    <input type="tel" class="text-input" name="phone-number" placeholder="+ 7 (____)___-__-__ " required="" autocomplete="on">
+    <input type="tel" class="text-input" name="phone-number" placeholder="+ 7 (____)___-__-__ " required="" >
   </label>
   <button class="btn-form-block2" type="submit">Оставить заявку</button>
   <br>
@@ -93,10 +92,11 @@
 </div>
         </div>
           <div class="video-block2">
-            <video autoplay loop playsinline id="video-traik-block2">
+            
+            <video  loop playsinline id="video-traik-block2">
               <source src="/assets/images/block-2 -controle-time/video-traik.MOV"> type="video/mp4">
-      
           </video>
+          <button id="playPauseBtn" class="playPauseBtn"><img src="/assets/images/block-2 -controle-time/play-circle-svgrepo-com.png" alt="Play button" width="50px"> </button>
             <p class="paragraphe-three-block2">Смотреть еще</p>
           </div>
         </section>
@@ -117,7 +117,10 @@
         <section></section>
         <section>
           <p>Параметры</p>
-          <button>Начать сотрудничать</button>
+          
+          <button  class="toggleButton-block8 toggleButton" >Начать сотрудничать</button>
+          
+    
         </section>
       </article>
       <footer>
