@@ -112,10 +112,11 @@ body{
         width: 667px;
         padding-right: 54px;
         padding-bottom: 44px;
+    }
+  .card4{
+      width: 667px;
+      padding-left: 54px;
+      padding-bottom: 44px;
+  }
 }
-.card4{
-    width: 667px;
-    padding-left: 54px;
-    padding-bottom: 44px;
-}
-}
+
