@@ -4,10 +4,6 @@
     gap: 5px;
 }
 
-.title-block_5 {
-    
-}
-
 .content_block_5 {
     width: 350px;
     height: 236px;
@@ -27,11 +23,5 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .title {
-        margin-left: 100px;
     }
 }
