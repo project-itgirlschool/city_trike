@@ -24,9 +24,39 @@
     font-family: 'Bicubik';
     src: url(/assets/fonts/bicubik-regular.woff);
 }
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content_block_5 {
+    width: 350px;
+    height: 236px;
+    background-image: url('../images/Subtract.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.15fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .block_5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
 body{
     background-color: black;
 }
+
 .drivers{
     display: flex;
     flex-direction: column;
