@@ -31,12 +31,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 350px;
+    width: 100%;
     max-width: 375px;
+    padding-left: 20px;
 }
 .square{
+    width: 13px;
     padding-bottom: 3px;
     padding-right: 5px;
 }
@@ -69,10 +69,9 @@ body{
     padding-left: 150px;
 }
 .diplomas{
-    width: 350px;
+    width: 100vw;
     max-width: 375px;
-    padding-left: 20px;
-
+    padding-right: 20px;
 }
 .diplomas__tittle{
     color: rgba(255, 255, 255, 0.74); 
@@ -83,4 +82,40 @@ body{
 .diplomas__img_2{
     padding-left: 185px;
     margin-top: -175px;
+}
+@media screen and (min-width: 1920px){
+    .drivers{
+        padding-left: 278px;
+        padding-right: 225px;
+    }
+    .drivers__title{
+        font-size: 60px;
+    }
+    .square{
+        display: none;
+    }
+    .drivers__card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    .card1{
+        width: 667px;
+        padding-right: 54px;
+        padding-bottom: 44px;
+    }
+    .card2{
+        width: 667px;
+        padding-left: 54px;
+        padding-bottom: 44px;
+    }
+    .card3{
+        width: 667px;
+        padding-right: 54px;
+        padding-bottom: 44px;
+}
+.card4{
+    width: 667px;
+    padding-left: 54px;
+    padding-bottom: 44px;
+}
 }
