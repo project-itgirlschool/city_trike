@@ -29,15 +29,17 @@
 @media screen and (min-width: 375px) and (max-width: 1920px)
 {
     background-color: rgba(33, 33, 33, 1);
-    /* width: 476px; */
     height: 846px;    
+    width: 476px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1920px)
 {
     background-color: rgba(33, 33, 33, 1);
-    /* width: 1842px; */
-    /* height: 735px;     */
+    height: 729px;    
+    width: 1842px;
+    margin: 0 auto;
 }
 }
 
@@ -47,15 +49,15 @@
     font-family: 'Vela Sans';
     color: #FFFFFF;
     font-size: 24px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 @media screen and (min-width: 1920px)
 {   font-family: 'Vela Sans';
     color: #FFFFFF;
     font-size: 60px;
-    padding-left: 80px;
-    padding-top: 47px;
+    /* padding-left: 276px;
+    padding-top: 47px; */
     font-weight: 100;
 }
 }
@@ -75,15 +77,16 @@ display: none;
 
 .team_team {
     @media screen and (min-width: 1920px) {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 20px;
+    margin: 0 auto;
     }
 }
 
 .name_team_member:before {
-@media screen and (min-width: 375px) 
-{
     content: "";
     background-image: url(../image/white_circle.png);
     background-size: cover;
@@ -95,7 +98,7 @@ display: none;
     vertical-align: middle;
     }
 
-}
+
 
 .name_team_member {
 @media screen and (min-width: 375px) and (max-width: 1920px)
@@ -109,7 +112,7 @@ display: none;
         font-family: 'Vela Sans';
         color: #FFFFFF;
         font-size: 24px;  
-        padding-left: 80px;
+        /* padding-left: 80px; */
     }
 }
 
@@ -126,6 +129,9 @@ display: none;
         color: #FFFFFF;
         font-size: 20px; 
         padding-left: 80px;
+        margin: 0;
+        height: 60px;
+        
     }
 }
 
@@ -137,8 +143,8 @@ display: none;
     }
 
     @media screen and (min-width: 1920px) {
-    width: 130px;
-    height: 130px;
+    width: 332px;
+    height: 332px;
     }
 }
 
@@ -150,7 +156,7 @@ display: none;
     }
 
     @media screen and (min-width: 1920px) {
-        padding: 10px;
+        /* padding: 10px; */
     
     }
 }
@@ -158,7 +164,11 @@ display: none;
     .meet_our_team {
         @media screen and (min-width: 375px) and (max-width: 1920px)
 {
-        padding-left: 20px;      
+        /* padding-left: 20px;     */
+        display: flex;
+        height: 200px;
+        width: 300px;
+        flex-direction: column;  
 }
 
 /* @media screen and (min-width: 1920px) {
@@ -174,7 +184,7 @@ display: none;
 
     @media screen and (min-width:  1920px) {
         padding-top: 20px;
-        padding-left: 100px;
+        /* padding-left: 100px; */
 
     }    
 }
@@ -209,7 +219,8 @@ display: none;
     @media screen and (min-width: 1920px) {
     width: 20px;
     height: 20px;
-    padding-left: 80px;
+    padding-right: 20px;
+    padding-left: 10px;
     }
 }
 
@@ -224,7 +235,7 @@ display: none;
         font-size: 60px;
         padding-left: 80px;  
         padding-bottom: 5px;
-
+        font-weight: 100;
     }
 }
 
