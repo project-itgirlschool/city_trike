@@ -56,8 +56,7 @@
 {   font-family: 'Vela Sans';
     color: #FFFFFF;
     font-size: 60px;
-    /* padding-left: 276px;
-    padding-top: 47px; */
+    padding-left: 314px;
     font-weight: 100;
 }
 }
@@ -79,9 +78,11 @@ display: none;
     @media screen and (min-width: 1920px) {
     display: flex;
     width: 800px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
     margin: 0 auto;
     }
 }
@@ -98,21 +99,20 @@ display: none;
     vertical-align: middle;
     }
 
-
-
 .name_team_member {
 @media screen and (min-width: 375px) and (max-width: 1920px)
         {
         font-family: 'Mazzard';
         color: #FFFFFF;
-        font-size: 16px;        
+        font-size: 16px;    
+        padding-top: 5px;    
     }
 
     @media screen and (min-width: 1920px) {
         font-family: 'Vela Sans';
         color: #FFFFFF;
         font-size: 24px;  
-        /* padding-left: 80px; */
+        padding-left: 314px;
     }
 }
 
@@ -121,14 +121,15 @@ display: none;
         {
         font-family: 'Mazzard';
         color: #FFFFFF;
-        font-size: 14px;          
+        font-size: 14px;     
+        padding-bottom: 2px;     
     }
 
     @media screen and (min-width: 1920px) {
         font-family: 'Vela Sans';
         color: #FFFFFF;
         font-size: 20px; 
-        padding-left: 80px;
+        padding-left: 314px;px;
         margin: 0;
         height: 60px;
         
@@ -140,11 +141,13 @@ display: none;
         {
         width: 100px;
         height: 100px;
+        padding-top: 10px;  
     }
 
     @media screen and (min-width: 1920px) {
-    width: 332px;
-    height: 332px;
+    width: 300px;
+    height: 300px;
+    padding-left: 276px;
     }
 }
 
@@ -164,17 +167,13 @@ display: none;
     .meet_our_team {
         @media screen and (min-width: 375px) and (max-width: 1920px)
 {
-        /* padding-left: 20px;     */
         display: flex;
         height: 200px;
         width: 300px;
         flex-direction: column;  
 }
+} 
 
-/* @media screen and (min-width: 1920px) {
-    /* padding-left: 10px;  */
-} */
-}
 
     .team_member img {
         @media screen and (min-width: 375px) and (max-width: 1920px)
@@ -183,9 +182,7 @@ display: none;
     }
 
     @media screen and (min-width:  1920px) {
-        padding-top: 20px;
-        /* padding-left: 100px; */
-
+        padding-top: 20px
     }    
 }
 
@@ -257,7 +254,6 @@ display: none;
     }
 
 }
-
 
 .vector1 {
     @media screen and (min-width: 375px) and (max-width: 1920px) {
