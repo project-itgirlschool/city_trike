@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/normalize.css">
-    <link rel="stylesheet" href="/assets/styles/style.css">
-    <link rel="stylesheet" href="/assets/fonts/Nuqun-Regular.otf">
-    <link rel="stylesheet" href="/assets/fonts/bicubik-regular.woff">
-    <link rel="stylesheet" href="/assets/fonts/VelaSans-Regular.woff">
-    <link rel="stylesheet" href="/assets/fonts/VelaSans-Medium.woff">
-    <link rel="stylesheet" href="/assets/fonts/MazzardH-Medium.woff">
-    <link rel="stylesheet" href="/assets/fonts/MazzardH-Regular.woff">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/Nuqun-Regular.otf" />
+    <link rel="stylesheet" href="./assets/fonts/bicubik-regular.woff" />
+    <link rel="stylesheet" href="./assets/fonts/VelaSans-Regular.woff" />
+    <link rel="stylesheet" href="./assets/fonts/VelaSans-Medium.woff" />
+    <link rel="stylesheet" href="./assets/fonts/MazzardH-Medium.woff" />
+    <link rel="stylesheet" href="./assets/fonts/MazzardH-Regular.woff" />
     <title>Городской трайк</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Блок 1  -->
-    <header>
-        <nav></nav>
+    <header class="header">
+      <img class="logo_block1" src="assets/images/logosvg.svg" alt="logo" />
+
+      <div class="navigation">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle"> </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Галерея</a></li>
+            <li><a class="menu__item" href="#">Целевая аудитория</a></li>
+            <li>
+              <a class="menu__item" href="#">Драйверы развития проекта</a>
+            </li>
+            <li>
+              <a class="menu__item" href="#">Предложение к сотрудничеству</a>
+            </li>
+            <div class="img_nav_header">
+              <a href="https://t.me/Ruslan01051980">
+                <img
+                  src="assets/images/streamline_telegram.svg"
+                  alt="Telegram"
+                  target="_blank"
+                />
+              </a>
+              <a href="https://wa.me/+79104417108">
+                <img
+                  src="assets/images/hugeicons_whatsapp.svg"
+                  alt="WhatsApp"
+                  target="_blank"
+                />
+              </a>
+            </div>
+          </ul>
+        </div>
+
+        <nav class="wide_navigation">
+          <a class="wide_menu" href="#">Целевая аудитория</a>
+          <a class="wide_menu" href="#">Драйверы развития проекта</a>
+          <a class="wide_menu" href="#">Предложение к сотрудничеству</a>
+          <a class="wide_menu" href="#">Галерея</a>
+        </nav>
+      </div>
     </header>
     <main>
         <article>
