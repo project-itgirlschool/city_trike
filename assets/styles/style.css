@@ -263,6 +263,12 @@
     }
 }
 
+.form-container-end {
+    position: absolute;
+    right: 150px;
+    top: 800px;
+}
+
 .video-block2 {
     position: relative;
     display: inline-block;
