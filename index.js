@@ -19,23 +19,13 @@ element.addEventListener('animationend', () => {
 
 const buttons = document.querySelectorAll('.toggleButton');
 buttons.forEach((button, index) => {
-    if (index === 2) { 
-        button.addEventListener('click', function() {
-            const formContainer = document.getElementById(`formContainer`);
-            formContainer.classList.toggle('hidden-form');
-            formContainer.classList.add('form-container-end');
-            event.preventDefault();
-        });
-    }
-    else {
-        button.addEventListener('click', function() {
-            const formContainer = document.getElementById(`formContainer`);
-            formContainer.classList.remove('form-container-end');
-            formContainer.classList.toggle('hidden-form');
-            event.preventDefault();
-        });
-    }
-   
+    button.addEventListener('click', function() {
+        const formContainer = document.getElementById(`formContainer`);
+        formContainer.classList.remove('form-container-end');
+        formContainer.classList.toggle('hidden-form');
+        event.preventDefault();
+    });
+  
 });
 
 
