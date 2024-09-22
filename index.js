@@ -20,8 +20,9 @@ element.addEventListener('animationend', () => {
 const buttons = document.querySelectorAll('.toggleButton');
 buttons.forEach((button, index) => {
     button.addEventListener('click', function() {
-        const formContainer = document.getElementById(`formContainer${index + 1}`);
+        const formContainer = document.getElementById(`formContainer`);
         formContainer.classList.toggle('hidden-form');
+        event.preventDefault();
     });
 });
 

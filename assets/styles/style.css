@@ -44,15 +44,41 @@
     text-transform: uppercase;
     font-family: 'Nuqun-regular';
     margin-bottom: 0;
+
+    @media only screen and (min-width: 1024px) {
+        font-size: 90px;
+    }
 }
 
 .heading2-block2 {
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Bicubik-regular';
-    color: #b1534d;
+    background: linear-gradient(to right, #EB4E4E, #C31111);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-top: 0;
 
+    @media only screen and (min-width: 1024px) {
+        font-size: 36px;
+    }
+}
+
+.heading-title-block2 {
+    display: none;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        align-self: end;
+        font-size: 96px;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #EB4E4E, #C31111);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
 }
 
 .img-traik-block2 {
@@ -66,7 +92,12 @@
     text-align: end;
     margin-bottom: 0;
     text-wrap: nowrap;
+
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
 }
+
 
 .block2-image-traik {
     display: flex;
@@ -97,7 +128,12 @@
     display: flex;
     flex-direction: column;
     background-color: black;
+
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
 }
+
 
 .btn-form-block-two {
     background-color: black;
@@ -164,18 +200,40 @@
     font-family: 'MazzardH-Regular';
     font-size: 20px;
     color: #c7cac9;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: end;
+        font-size: 64px;
+    }
+
 }
 
 .par2-block2 {
     font-family: 'VelaSans-Regular';
     font-size: 16px;
     color: #c7cac9;
+
+    @media only screen and (min-width: 1024px) {
+
+        display: flex;
+        justify-content: end;
+        font-size: 24px;
+    }
 }
 
 .par3-block2 {
     font-family: 'VelaSans-Regular';
     font-size: 18px;
     color: #E75E43;
+
+    @media only screen and (min-width: 1024px) {
+
+        display: flex;
+        justify-content: end;
+        font-size: 24px;
+
+    }
 }
 
 .img-numbers-block2 {
@@ -183,16 +241,39 @@
     justify-content: end;
 }
 
+.button-block-block6 {
+    display: none;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: end;
+        font-size: 24px;
+        margin-top: 20px;
+        padding: 25px;
+    }
+}
 
 .paragraphe-three-block2 {
     font-family: 'MazzardH-Regular';
     font-size: 14px;
     color: #c7cac9;
+
+    @media only screen and (min-width: 1024px) {
+        display: none;
+    }
 }
 
 .video-block2 {
     position: relative;
     display: inline-block;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        justify-content: end;
+        position: relative;
+        bottom: 1000px;
+        left: 10px;
+    }
 }
 
 #video-traik-block2 {
@@ -201,6 +282,13 @@
     border: 1px solid black;
     border-radius: 10px;
     height: auto;
+
+    @media only screen and (min-width: 1024px) {
+        width: auto;
+        height: 217px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
 }
 
 
@@ -217,6 +305,21 @@
     cursor: pointer;
     font-size: 18px;
     z-index: 1;
+
+    @media only screen and (min-width: 1024px) {
+        position: absolute;
+        top: 75%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+        padding: 10px 20px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 18px;
+        z-index: 1;
+    }
 }
 
 .toggleButton-block8 {
