@@ -1,5 +1,81 @@
- Tatiana-dev
-/* block-2-Tatiana */
+
+@font-face {
+    font-family: 'Vela Sans';
+    font-weight: medium;
+    src: url(/assets/fonts/VelaSans-Medium.woff);
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url(/assets/fonts/VelaSans-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Medium.woff);
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Regular.woff);
+}
+
+@font-face {
+    font-family: 'Nuqun';
+    src: url(/assets/fonts/Nuqun-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Bicubik';
+    src: url(/assets/fonts/bicubik-regular.woff);
+}
+
+.our_team_container {
+    padding-top: 30px;
+    background-color: rgba(33, 33, 33, 1);
+}
+
+.our_team {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        height: 846px;
+        width: 476px;
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 1920px) {
+        height: 729px;
+        width: 1842px;
+        margin: 0 auto;
+    }
+}
+
+.our_team_title {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 100;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 60px;
+        padding-left: 314px;
+        font-weight: 100;
+    }
+}
+
+.red_cube {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        padding-right: 20px;
+        width: 13px;
+        height: 13px;
+    }
+
+    @media screen and (min-width: 1920px) {
+
 @font-face {
     src: url('/assets/fonts/Nuqun-Regular.otf');
     font-family: 'Nuqun-regular';
@@ -101,6 +177,215 @@
     text-wrap: nowrap;
 
     @media only screen and (min-width: 1024px) {
+        display: none;
+    }
+
+
+    @media screen and (min-width: 1920px) {
+        display: flex;
+        width: 800px;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        margin: 0 auto;
+    }
+}
+
+.name_team_member:before {
+    content: "";
+    background-image: url(../image/white_circle.png);
+    background-size: cover;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name_team_member {
+    margin: 0;
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        font-family: 'Mazzard';
+        color: #FFFFFF;
+        font-size: 16px;
+        padding: 5px 0;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 24px;
+        padding-left: 314px;
+    }
+}
+
+.team_member_regalia {
+    margin: 0;
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        font-family: 'Mazzard';
+        color: #FFFFFF;
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-left: 314px;
+        margin: 0;
+        height: 60px;
+
+    }
+}
+
+.team_member {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        width: 100px;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 300px;
+        height: 300px;
+        padding-left: 276px;
+    }
+}
+
+.title_our_time {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        padding: 10px;
+        padding-left: 20px;
+    }
+}
+
+.meet_our_team {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        display: flex;
+        height: 250px;
+        width: 300px;
+        flex-direction: column;
+    }
+}
+
+
+.team_member img {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        padding-top: 20px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        padding-top: 20px
+    }
+}
+
+.our_target_audience {
+    @media screen and (min-width: 375px) {
+        background-color: #141414;
+    }
+
+    @media screen and (min-width: 1920px) {
+        display: flex;
+        justify-content: end;
+        padding-top: 100px;
+    }
+}
+.our_target_audience_left {
+    @media screen and (min-width: 1920px) {
+        width: 45%;
+    }
+}
+.our_target_audience p {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 24px;
+        padding: 20px;
+    }
+}
+
+.our_target_audience_red_cube {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1920px) {
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+}
+
+.our_target_audience_title {
+    margin: 0 ;
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #F5F5F5;
+        font-size: 60px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-weight: 100;
+    }
+}
+
+.p_our_target_audience {
+    margin: 0;
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #FFFFFF;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        font-family: 'Vela Sans';
+        color: #F5F5F5;
+        font-size: 24px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+}
+
+.vector1 {
+    @media screen and (min-width: 375px) and (max-width: 1920px) {
+        padding-left: 20px;
+        padding-top: 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    @media screen and (min-width: 1920px) {
+        display: none;
+    }
+}
+
+.vector2 {
+    @media screen and (min-width: 375px) and (max-width: 1024px) {
+        padding-left: 320px;
+        padding-top: 10px;
+        width: 10px;
+        height: 10px;
+    }
+
+    @media screen and (min-width: 1920px) {
         display: none;
     }
 }
@@ -751,4 +1036,4 @@ body{
       padding-bottom: 44px;
   }
 }
- dev
+
