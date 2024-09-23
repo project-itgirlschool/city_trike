@@ -54,7 +54,7 @@
         font-family: 'Vela Sans';
         color: #FFFFFF;
         font-size: 24px;
-        /* padding: 10px; */
+        font-weight: 100;
     }
 
     @media screen and (min-width: 1920px) {
@@ -161,17 +161,12 @@
         padding: 10px;
         padding-left: 20px;
     }
-
-    @media screen and (min-width: 1920px) {
-        /* padding: 10px; */
-
-    }
 }
 
 .meet_our_team {
     @media screen and (min-width: 375px) and (max-width: 1920px) {
         display: flex;
-        height: 200px;
+        height: 250px;
         width: 300px;
         flex-direction: column;
     }
@@ -201,7 +196,7 @@
 }
 .our_target_audience_left {
     @media screen and (min-width: 1920px) {
-        width: 30%;
+        width: 45%;
     }
 }
 .our_target_audience p {
