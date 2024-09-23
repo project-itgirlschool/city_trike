@@ -1,3 +1,4 @@
+ Tatiana-dev
 /* block-2-Tatiana */
 @font-face {
     src: url('/assets/fonts/Nuqun-Regular.otf');
@@ -454,3 +455,300 @@
     cursor: pointer;
 
 }
+
+@font-face {
+    font-family: 'Vela Sans';
+    font-weight: medium;
+    src: url(/assets/fonts/VelaSans-Medium.woff);
+}
+@font-face {
+    font-family: 'Vela Sans';
+    src: url(/assets/fonts/VelaSans-Regular.woff);
+}
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Medium.woff);
+    font-weight: medium;
+}
+@font-face {
+    font-family: 'Mazzard';
+    src: url(/assets/fonts/MazzardH-Regular.woff);
+}
+@font-face {
+    font-family: 'Nuqun';
+    src: url(/assets/fonts/Nuqun-Regular.otf);
+}
+@font-face {
+    font-family: 'Bicubik';
+    src: url(/assets/fonts/bicubik-regular.woff);
+}
+
+.logo_block1{
+    width: 35%;
+    height: 80%;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 160px ;
+    background-color: black;
+
+    @media screen and (min-width: 1024px) {
+        margin: 0 auto;
+        justify-content:flex-start;
+
+    }
+}
+.burger{
+    @media screen and (min-width:1024px) {
+        display: none;
+    }
+}
+#menu__toggle {
+    opacity: 0;
+  }
+
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+
+  .menu__btn {
+    display: flex;
+    background-image: url("../images/burger.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    width: 41px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1;
+    @media screen and (min-width:1024px) {
+        display: none;}
+  }
+
+  #menu__toggle:checked ~ .menu__btn {
+    background-image: url("../images/button_close.png");
+    width: 32px;
+    height: 32px ;
+  }
+  
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    font-family: Vela Sans;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #f9f9fa;
+    box-shadow: 1px 0px 6px rgba(238, 236, 236, 0.2);
+    transition-duration: .25s;
+  }
+  
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #000000;
+    font-family: 'Vela Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #f3f6f7;
+  }
+
+.img_nav_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 70px;   
+}
+
+.wide_navigation{
+    display: none;
+    @media screen and (min-width:1024px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:fit-content;
+        border-color: #ffffff ;
+    background-color: #ffffff ;
+    border-radius: 40px;
+    
+    gap: 25px;
+    padding: 16px 32px;
+    }
+    
+  }
+.navigation{
+        display: flex;
+        width: 100%;
+
+}
+.wide_menu{
+    text-decoration: none;
+    text-align: start ;
+    text-wrap:nowrap;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    gap: 10px;
+    padding: 9px 50px 9px 50px;
+    font-family: 'Vela Sans', sans-serif;
+    font-size: 18px;
+    color: rgba(21, 19, 19, 1);
+    line-height: 24.59px;
+}
+
+a:hover {
+color: rgb(255, 255, 255); 
+}
+    
+.wide_menu:hover{
+background: rgba(21, 19, 19, 1);
+}
+
+
+
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content_block_5 {
+    width: 350px;
+    height: 236px;
+    background-image: url('../images/Subtract.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr 0.15fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (min-width: 768px) {
+    .block_5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+body{
+    background-color: black;
+}
+
+.drivers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 375px;
+    padding-left: 20px;
+}
+.square{
+    width: 13px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.drivers__title{
+    color: rgba(255, 255, 255, 0.74);
+    font-family: 'Vela Sans';
+    font-weight: normal;
+    font-size: 24px;
+    white-space: nowrap;
+}
+.drivers__card{
+    padding-right: 20px;
+}
+.card1{
+    margin-bottom: 20px;
+}
+.card2{
+    margin-bottom: 20px;
+}
+.card3{
+    margin-bottom: 20px;
+}
+.card4{
+
+}
+.drivers__icon{
+    width: 266px;
+    height: 59px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.diplomas{
+    width: 100vw;
+    max-width: 375px;
+    padding-right: 20px;
+}
+.diplomas__tittle{
+    color: rgba(255, 255, 255, 0.74); 
+    font-family: 'Vela Sans';
+    font-weight: normal;
+    font-size: 24px;
+}
+.diplomas__img_2{
+    padding-left: 185px;
+    margin-top: -175px;
+}
+@media screen and (min-width: 1920px){
+    .drivers{
+        padding-left: 278px;
+        padding-right: 225px;
+    }
+    .drivers__title{
+        font-size: 60px;
+    }
+    .square{
+        display: none;
+    }
+    .drivers__card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    .card1{
+        width: 667px;
+        padding-right: 54px;
+        padding-bottom: 44px;
+    }
+    .card2{
+        width: 667px;
+        padding-left: 54px;
+        padding-bottom: 44px;
+    }
+    .card3{
+        width: 667px;
+        padding-right: 54px;
+        padding-bottom: 44px;
+    }
+  .card4{
+      width: 667px;
+      padding-left: 54px;
+      padding-bottom: 44px;
+  }
+}
+ dev
