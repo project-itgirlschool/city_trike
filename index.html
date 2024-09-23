@@ -1,147 +1,211 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/styles/normalize.css" />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/fonts/Nuqun-Regular.otf" />
+    <link rel="stylesheet" href="/assets/fonts/bicubik-regular.woff" />
+    <link rel="stylesheet" href="/assets/fonts/VelaSans-Regular.woff" />
+    <link rel="stylesheet" href="/assets/fonts/VelaSans-Medium.woff" />
+    <link rel="stylesheet" href="/assets/fonts/MazzardH-Medium.woff" />
+    <link rel="stylesheet" href="/assets/fonts/MazzardH-Regular.woff" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/assets/styles/normalize.css" />
-  <link rel="stylesheet" href="/assets/styles/style.css" />
-  <link rel="stylesheet" href="/assets/fonts/Nuqun-Regular.otf" />
-  <link rel="stylesheet" href="/assets/fonts/bicubik-regular.woff" />
-  <link rel="stylesheet" href="/assets/fonts/VelaSans-Regular.woff" />
-  <link rel="stylesheet" href="/assets/fonts/VelaSans-Medium.woff" />
-  <link rel="stylesheet" href="/assets/fonts/MazzardH-Medium.woff" />
-  <link rel="stylesheet" href="/assets/fonts/MazzardH-Regular.woff" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Городской трайк</title>
+  </head>
 
-  <title>Городской трайк</title>
-</head>
+  <body>
+    <div id="formContainer" class="hidden-form">
+      <form action="https://formspree.io/f/xblrengv" method="POST" id="myForm">
+        <input type="hidden" name="_language" value="ru" />
 
-<body>
-  <div id="formContainer" class="hidden-form">
-    <form action="https://formspree.io/f/xblrengv" method="POST" id="myForm">
-      <input type="hidden" name="_language" value="ru" />
-      <label>
-        <input type="text" class="text-input" name="last-name" placeholder="Фамилия" required="">
-      </label>
-      <label>
-        <input type="text" class="text-input" name="first-name" placeholder="Имя" required="">
-      </label>
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <label>
+          <input
+            type="text"
+            class="text-input"
+            name="last-name"
+            placeholder="Фамилия"
+            required=""
+          />
+        </label>
+        <label>
+          <input
+            type="text"
+            class="text-input"
+            name="first-name"
+            placeholder="Имя"
+            required=""
+          />
+        </label>
 
-      <label>
-        <input type="text" class="text-input" name="first-name" placeholder="Отчество">
-      </label>
-      <label>
-        <input type="tel" class="text-input" name="phone-number" placeholder="+ 7 (____)___-__-__ "
-          required="">
-      </label>
-      <button class="btn-form-block2" type="submit">Оставить заявку</button>
-      <br>
+        <label>
+          <input
+            type="text"
+            class="text-input"
+            name="first-name"
+            placeholder="Отчество"
+          />
+        </label>
+        <label>
+          <input
+            type="tel"
+            class="text-input"
+            name="phone-number"
+            placeholder="+ 7 (____)___-__-__ "
+            required=""
+          />
+        </label>
+        <button class="btn-form-block2" type="submit">Оставить заявку</button>
 
-      <label class="text-chexbox-block2">
-        <input type="checkbox" class="text-chexbox" name="checkbox" placeholder=" " required="">
-        Согласие на обработку персональных данных
-      </label>
-    </form>
-  </div>
-  <!-- Блок 1  -->
-  <header>
-    <nav></nav>
-  </header>
-  <main>
-    <article>
-      <!-- Блок 2  -->
-      <section>
-        <div class="container-block2">
-          <h1 class="heading-block2">Управляй временем</h1>
-          <h2 class="heading2-block2">Городской трайк</h2>
-          <!-- <p class="paragraphe-one-block2">Начать сотрудничать</p> -->
-          <div class="block2-container-img">
-            <div class="block2-image-traik">
-              <a href="" rel="noopener noreferrer"> <img class="img-traik-block2"
-                  src="/assets/images/block-2 -controle-time/traik.jpeg" alt="Трайк" width="158px" /></a>
+        <label class="text-chexbox-block2">
+          <input
+            type="checkbox"
+            class="text-chexbox"
+            name="checkbox"
+            placeholder=" "
+            required=""
+          />
+          Согласие на обработку персональных данных
+        </label>
+      </form>
+    </div>
+    <!-- Блок 1  -->
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <article>
+        <!-- Блок 2  -->
+        <section>
+          <div class="container-block2">
+            <h1 class="heading-block2">Управляй временем</h1>
+            <h2 class="heading2-block2">Городской трайк</h2>
+            <!-- <p class="paragraphe-one-block2">Начать сотрудничать</p> -->
+            <div class="block2-container-img">
+              <div class="block2-image-traik">
+                <a href="" rel="noopener noreferrer">
+                  <img
+                    class="img-traik-block2"
+                    src="/assets/images/block-2 -controle-time/traik.jpeg"
+                    alt="Трайк"
+                    width="158px"
+                /></a>
+              </div>
+              <div id="container-imgs-block6">
+                <button id="back" class="btn-1">❰</button>
+                <img
+                  id="pictures-of-traik"
+                  src="/assets/images/traik-photo.jpeg"
+                  alt="Traik"
+                  width="400px"
+                />
+                <button id="next" class="btn-1">❱</button>
+              </div>
+
+              <div class="second-block-button">
+                <p class="paragraphe-one-block2">Начать сотрудничать</p>
+
+                <button
+                  id="toggleButton"
+                  class="btn-form-block-two toggleButton"
+                >
+                  <a href="" rel="noopener noreferrer"
+                    ><img
+                      src="/assets/images/block-2 -controle-time/discover.png"
+                      alt="Pointer"
+                      width="80px"
+                  /></a>
+                </button>
+
+                <h1
+                  class="heading-title-block2 animate__animated animate__backInDown my-element"
+                >
+                  Phantom
+                </h1>
+              </div>
             </div>
-            <div class="second-block-button">
-              <p class="paragraphe-one-block2">Начать сотрудничать</p>
-
-              <button id="toggleButton" class="btn-form-block-two toggleButton"> <a href=""
-                  rel="noopener noreferrer"><img src="/assets/images/block-2 -controle-time/discover.png" alt="Pointer"
-                    width="80px"></a>
-              </button>
-
-              
-              
-
-              <h1 class="heading-title-block2 animate__animated animate__backInDown my-element">
-                Phantom
-              </h1>
-            </div>
-          </div>
-          <!-- <img src="/assets/images/traik.jpeg" alt="Трайк" width="158px" /> -->
-          <!-- <div class="test">
+            <!-- <img src="/assets/images/traik.jpeg" alt="Трайк" width="158px" /> -->
+            <!-- <div class="test">
             <h1
               class="heading-block2 animate__animated animate__backInDown my-element"
             >
               Phantom
             </h1>
           </div> -->
-          <div>
-            <h1 class="heading-title-block2">
-              Phantom
-            </h1>
-            <p class="paragraphe-two-block2">
-              <span class="par-block2">1-е место</span> <span class="par2-block2"> среди трайков на выставке</span>
-              <span class="par3-block2">Мотовесна</span>
-            </p>
+            <div class="main-title-block2">
+              <h1 class="heading-title-block2">Phantom</h1>
+              <p class="paragraphe-two-block2">
+                <span class="par-block2">1-е </span>
+                <span class="par2-block2">
+                  место среди трайков на выставке</span
+                >
+                <span class="par3-block2">Мотовесна</span>
+              </p>
+            </div>
             <div class="img-numbers-block2">
-              <img src="/assets/images/block-2 -controle-time/2024.png" alt="Numbers">
-
+              <img
+                src="/assets/images/block-2 -controle-time/2024.png"
+                alt="Numbers"
+              />
             </div>
 
             <div class="button-block-block6">
-              <button class="toggleButton-block8 toggleButton">Начать сотрудничать</button>
+              <button class="toggleButton-block8 toggleButton">
+                Начать сотрудничать
+              </button>
             </div>
           </div>
           <div class="video-block2">
-
             <video loop playsinline id="video-traik-block2">
-              <source src="/assets/images/block-2 -controle-time/video-traik.MOV"> type="video/mp4">
+              <source
+                src="/assets/images/block-2 -controle-time/video-traik.MOV"
+              />
+              type="video/mp4">
             </video>
-            <button id="playPauseBtn" class="playPauseBtn"><img
-                src="/assets/images/block-2 -controle-time/play-circle-svgrepo-com.png" alt="Play button" width="50px">
+            <button id="playPauseBtn" class="playPauseBtn">
+              <img
+                src="/assets/images/block-2 -controle-time/play-circle-svgrepo-com.png"
+                alt="Play button"
+                width="50px"
+              />
             </button>
             <p class="paragraphe-three-block2">Смотреть еще</p>
           </div>
-      </section>
-      <!-- Блок 3 -->
-      <section>
-        <h2>Наша команда</h2>
-      </section>
-      <section>
-        <h2>Предложения к сотрудничеству</h2>
-      </section>
-      <section>
-        <h2>Драйвера развития проекта</h2>
-      </section>
-      <section>
-        <h2>Мотовесна - 2024</h2>
-      </section>
-      <!-- Блок 7 - Галерея -->
-      <section></section>
-      <section>
-        <p>Параметры</p>
+        </section>
+        <!-- Блок 3 -->
+        <section>
+          <h2>Наша команда</h2>
+        </section>
+        <section>
+          <h2>Предложения к сотрудничеству</h2>
+        </section>
+        <section>
+          <h2>Драйвера развития проекта</h2>
+        </section>
+        <section>
+          <h2>Мотовесна - 2024</h2>
+        </section>
+        <!-- Блок 7 - Галерея -->
+        <section></section>
+        <section>
+          <p>Параметры</p>
 
-        <button class="toggleButton-block8 toggleButton">Начать сотрудничать</button>
+          <button class="toggleButton-block8 toggleButton">
+            Начать сотрудничать
+          </button>
+        </section>
+      </article>
+      <footer>
+        <nav></nav>
+      </footer>
+    </main>
 
-
-      </section>
-    </article>
-    <footer>
-      <nav></nav>
-    </footer>
-  </main>
-
-  <script src="index.js"></script>
-</body>
-
+    <script src="index.js"></script>
+  </body>
 </html>
