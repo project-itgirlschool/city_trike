@@ -8,14 +8,6 @@ element.addEventListener('animationend', () => {
 
 
 
-// Код работает только для первой одной кнопки 
-
-// document.getElementById('toggleButton').addEventListener('click', function() {
-//     const formContainer = document.getElementById('formContainer');
-//     formContainer.classList.toggle('hidden-form');
-//     event.preventDefault();
-// });
-
 
 const buttons = document.querySelectorAll('.toggleButton');
 const closeBtn = document.getElementById('closeBtn');
@@ -39,7 +31,7 @@ buttons.forEach((button, index) => {
 const back = document.querySelector('#back');
 const next = document.querySelector('#next');
 
-const photos = ["/assets/images/traik-photo-2.jpeg","/assets/images/traik-photo-3.jpeg"];
+const photos = ["/assets/images/traik-photo.jpeg","/assets/images/traik-photo-2.jpeg","/assets/images/traik-photo-3.jpeg"];
 
 let i = 0;
 
