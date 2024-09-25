@@ -20,6 +20,63 @@
         <title>Городской трайк</title>
       </head>
 <body>
+
+  <div id="formContainer" class="hidden-form">
+    <form action="https://formspree.io/f/xblrengv" method="POST" id="myForm">
+      <input type="hidden" name="_language" value="ru" />
+
+      <button class="close-btn" id="closeBtn">&times;</button>
+      <label>
+        <input
+          type="text"
+          class="text-input"
+          name="last-name"
+          placeholder="Фамилия"
+          required=""
+        />
+      </label>
+      <label>
+        <input
+          type="text"
+          class="text-input"
+          name="first-name"
+          placeholder="Имя"
+          required=""
+        />
+      </label>
+
+      <label>
+        <input
+          type="text"
+          class="text-input"
+          name="first-name"
+          placeholder="Отчество"
+        />
+      </label>
+      <label>
+        <input
+          type="tel"
+          class="text-input"
+          name="phone-number"
+          placeholder="+ 7 (____)___-__-__ "
+          required=""
+        />
+      </label>
+      <button class="btn-form-block2" type="submit">Оставить заявку</button>
+
+      <label class="text-chexbox-block2">
+        <input
+          type="checkbox"
+          class="text-chexbox"
+          name="checkbox"
+          placeholder=" "
+          required=""
+        />
+          Согласие на обработку персональных данных
+      </label>
+  </form>
+  </div>
+  
     <!-- Блок 1  -->
     <header class="header">
         <img class="logo_block1" src="assets/images/logosvg.svg" alt="logo" />
