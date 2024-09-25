@@ -30,6 +30,9 @@
     font-family: 'Bicubik';
     src: url(/assets/fonts/bicubik-regular.woff);
 }
+body{
+    background-color: #000000;
+}
 
 .our_team_container {
     padding-top: 30px;
