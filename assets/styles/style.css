@@ -30,15 +30,12 @@
     font-family: 'Bicubik';
     src: url(/assets/fonts/bicubik-regular.woff);
 }
-body{
-    background-color: #000000;
-}
 
+/*! блок 3*/
 .our_team_container {
     padding-top: 30px;
     background-color: rgba(33, 33, 33, 1);
 }
-
 .our_team {
     @media screen and (min-width: 375px) and (max-width: 1920px) {
         height: 846px;
@@ -290,7 +287,7 @@ body{
 
 .our_target_audience {
     @media screen and (min-width: 375px) {
-        background-color: #141414;
+        background-color: black;
     }
 
     @media screen and (min-width: 1920px) {
@@ -956,9 +953,9 @@ background: rgba(21, 19, 19, 1);
         justify-content: space-evenly;
     }
 }
-
-body{
-    background-color: black;
+.cooperation{
+    background-color: #000000;
+    padding-left: 20px;
 }
 
 .drivers{
@@ -968,6 +965,7 @@ body{
     width: 100%;
     max-width: 375px;
     padding-left: 20px;
+    background-color: #000000;
 }
 .square{
     width: 13px;
@@ -1003,7 +1001,7 @@ body{
     padding-left: 150px;
 }
 .diplomas{
-    width: 100vw;
+    width: 100%;
     max-width: 375px;
     padding-right: 20px;
 }
@@ -1053,4 +1051,6 @@ body{
       padding-bottom: 44px;
   }
 }
-
+body{
+    width: 100vw;
+}
