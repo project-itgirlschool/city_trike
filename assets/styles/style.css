@@ -1050,8 +1050,11 @@ a:hover {
 .diplomas__img_2 {
     padding-left: 185px;
     margin-top: -175px;
-
-
+}
+.square{
+    width: 15px;
+    padding-bottom: 3px;
+    padding-right: 5px;
 }
 
 @media screen and (min-width: 1920px) {
