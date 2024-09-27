@@ -1213,6 +1213,11 @@ body {
     background-image: url('../image/red_cube.png');
     background-repeat: no-repeat;
     background-position: left;
+    margin-top: 40px;
+
+    @media screen and (min-width:1024px) {
+        background-image: none;
+    }
 }
 
 .detail-info_description {
@@ -1228,6 +1233,13 @@ body {
     background-image: url('../image/white_circle.png');
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.detail-info_line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 body {
