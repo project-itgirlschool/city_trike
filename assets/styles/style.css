@@ -41,6 +41,7 @@
         height: 846px;
         width: 476px;
         margin: 0 auto;
+        padding-left: 15px;
     }
 
     @media screen and (min-width: 1920px) {
@@ -71,7 +72,7 @@
 .red_cube {
     @media screen and (min-width: 375px) and (max-width: 1920px) {
         padding-right: 20px;
-        width: 13px;
+        width: 30px;
         height: 13px;
     }
     @media screen and (min-width: 1920px) {
@@ -276,7 +277,7 @@
 .title_our_time {
     @media screen and (min-width: 375px) and (max-width: 1920px) {
         padding: 10px;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 }
 
@@ -1250,7 +1251,7 @@ body {
         background-position: 25% 5%;
         height: 500px;
     }
-    @media screen and (min-width:1960px) {
+    @media screen and (min-width:1920px) {
         background-image: url('../images/parameters/parametr_vector_desktop.svg');
         background-position: 32% 15%;
         background-size: 20%;
@@ -1267,7 +1268,7 @@ body {
     background-repeat: no-repeat;
     background-position: left;
 
-    @media screen and (min-width:1960px) {
+    @media screen and (min-width:1920px) {
         font-size: 60px;
         background-image:none;
         padding-left: 0;
@@ -1278,7 +1279,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 -5px;
-    @media screen and (min-width:1960px) {
+    @media screen and (min-width:1920px) {
         font-size: 24px;
         height: 300px;
     }
@@ -1291,7 +1292,7 @@ body {
     background-image: url('../image/white_circle.png');
     background-repeat: no-repeat;
     background-position: left;
-    @media screen and (min-width:1960px) {
+    @media screen and (min-width:1920px) {
        background-size: 40px;
        padding-left: 80px;
        background-image: url('../image/red_cube.png');
@@ -1315,7 +1316,7 @@ body {
         width: 600px;
         height: 400px;
     }
-    @media screen and (min-width:1960px) {
+    @media screen and (min-width:1920px) {
         width: 1017px;
         height: 763px;
         position: absolute;
@@ -1332,7 +1333,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: flex-start;
-    @media screen and (min-width: 1960px) {
+    @media screen and (min-width: 1920px) {
         padding: 90px 30px;
         font-size: 18px;
         background-image: url('../images/footer/bg_desktop.png');
@@ -1379,7 +1380,7 @@ body {
     color:#FFFFFF;
     opacity: 0.6;
 
-    @media screen and (min-width: 1960px) {
+    @media screen and (min-width: 1920px) {
         display: none;
     }
 }
@@ -1387,7 +1388,7 @@ body {
 .footer_icon {
     width: 47px;
     height: 46px;
-    @media screen and (min-width: 1960px) {
+    @media screen and (min-width: 1920px) {
         width: 146px;
         height: 142px;
     }
@@ -1395,7 +1396,7 @@ body {
 
 .footer_navigation_second_desctop, .footer_navigation_third_desctop {
     display: none;
-    @media screen and (min-width: 1960px) {
+    @media screen and (min-width: 1920px) {
         display: flex;
         height: 100%;
         opacity: 0.5;
@@ -1405,7 +1406,7 @@ body {
 }
 
 .footer_navigation {
-    @media screen and (min-width: 1960px) {
+    @media screen and (min-width: 1920px) {
         width: 100%;
         display: flex;
         padding-left: 100px;
@@ -1415,4 +1416,34 @@ body {
 
 .footer_navigation_second_desctop, .footer_navigation_third_desctop {
     height: 135px;
+}
+
+.block_with_connect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    @media screen and (min-width: 1920px) {
+        justify-content: flex-start;
+    }
+}
+.connect-btn {
+    width: 280px;
+    height: 55px;
+    font-family: 'Vela Sans';
+    font-size: 16px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: white; 
+    transition: all 400ms ease;
+    @media screen and (min-width: 1920px) {
+        width: 522px;
+        height: 84px;
+        font-size: 20px;
+    }
+}
+
+.connect-btn:hover {
+    background-color: #FFFFFFBD;
+    opacity: 0.7;
 }
