@@ -1,33 +1,33 @@
 @font-face {
     font-family: 'Vela Sans';
     font-weight: medium;
-    src: url(/assets/fonts/VelaSans-Medium.woff);
+    src: url(../fonts/VelaSans-Medium.woff);
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url(/assets/fonts/VelaSans-Regular.woff);
+    src: url(../fonts/VelaSans-Regular.woff);
 }
 
 @font-face {
     font-family: 'Mazzard';
-    src: url(/assets/fonts/MazzardH-Medium.woff);
+    src: url(../fonts/MazzardH-Medium.woff);
     font-weight: medium;
 }
 
 @font-face {
     font-family: 'Mazzard';
-    src: url(/assets/fonts/MazzardH-Regular.woff);
+    src: url(../fonts/MazzardH-Regular.woff);
 }
 
 @font-face {
     font-family: 'Nuqun';
-    src: url(/assets/fonts/Nuqun-Regular.otf);
+    src: url(../fonts/Nuqun-Regular.otf);
 }
 
 @font-face {
     font-family: 'Bicubik';
-    src: url(/assets/fonts/bicubik-regular.woff);
+    src: url(../fonts/bicubik-regular.woff);
 }
 
 /*! блок 3*/
@@ -91,31 +91,31 @@
 @media screen and (min-width: 1920px) {
 
     @font-face {
-        src: url(/assets/fonts/Nuqun-Regular.otf);
+        src: url(../fonts/Nuqun-Regular.otf);
         font-family: 'Nuqun-regular';
         font-weight: 400;
     }
 
     @font-face {
-        src: url('/assets/fonts/bicubik-regular.woff');
+        src: url('../fonts/bicubik-regular.woff');
         font-family: 'Bicubik-regular';
         font-weight: 400;
     }
 
     @font-face {
-        src: url('/assets/fonts/VelaSans-Medium.woff');
+        src: url('../fonts/VelaSans-Medium.woff');
         font-family: 'VelaSams-Medium';
         font-weight: 400;
     }
 
     @font-face {
-        src: url('/assets/fonts/MazzardH-Regular.woff');
+        src: url('../fonts/MazzardH-Regular.woff');
         font-family: 'MazzardH-Regular';
         font-weight: 400;
     }
 
     @font-face {
-        src: url('/assets/fonts/VelaSans-Regular.woff');
+        src: url('../fonts/VelaSans-Regular.woff');
         font-family: 'VelaSans-Regular';
         font-weight: 400;
     }
@@ -772,33 +772,33 @@
 @font-face {
     font-family: 'Vela Sans';
     font-weight: medium;
-    src: url(/assets/fonts/VelaSans-Medium.woff);
+    src: url(../fonts/VelaSans-Medium.woff);
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url(/assets/fonts/VelaSans-Regular.woff);
+    src: url(../fonts/VelaSans-Regular.woff);
 }
 
 @font-face {
     font-family: 'Mazzard';
-    src: url(/assets/fonts/MazzardH-Medium.woff);
+    src: url(../fonts/MazzardH-Medium.woff);
     font-weight: medium;
 }
 
 @font-face {
     font-family: 'Mazzard';
-    src: url(/assets/fonts/MazzardH-Regular.woff);
+    src: url(../fonts/MazzardH-Regular.woff);
 }
 
 @font-face {
     font-family: 'Nuqun';
-    src: url(/assets/fonts/Nuqun-Regular.otf);
+    src: url(../fonts/Nuqun-Regular.otf);
 }
 
 @font-face {
     font-family: 'Bicubik';
-    src: url(/assets/fonts/bicubik-regular.woff);
+    src: url(../fonts/bicubik-regular.woff);
 }
 
 .logo_block1 {
