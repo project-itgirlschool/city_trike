@@ -1009,12 +1009,6 @@ background: rgba(21, 19, 19, 1);
     font-family: 'Vela Sans';
     font-weight: normal;
     font-size: 24px;
-
-    @media screen and (min-width:1024px) {
-        width: 100vw;
-        font-size: 60px;
-    }
-    
 }
 
 .diplomas__img_2{
@@ -1058,6 +1052,21 @@ background: rgba(21, 19, 19, 1);
       padding-left: 54px;
       padding-bottom: 44px;
   }
+  .diplomas__img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .diplomas__img_1{
+    width: 400px;
+    margin-left: 360px;
+   }
+   .diplomas__img_2{
+     width: 400px;
+     margin-top: 0px;
+     margin-left: 260px;
+     padding-left: 0px;
+     grid-column: 3;
+   }
 }
 body{
     width: 100vw;
