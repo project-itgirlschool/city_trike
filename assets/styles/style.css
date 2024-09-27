@@ -1221,6 +1221,7 @@ body {
     border-radius: 10px;
 }
 
+
 .detail-info {
     width: 100%;
     font-family: 'Vela Sans';
@@ -1229,11 +1230,13 @@ body {
     background-image: url('../images/parameters/parametr_vector.svg');
     background-repeat: no-repeat;
     background-position: 90% 5%;
+    margin-bottom: 30px;
     @media screen and (min-width:460px) {
         background-position: 60% 5%;
     }
     @media screen and (min-width:1024px) {
         background-position: 25% 5%;
+        height: 900px;
     }
     @media screen and (min-width:1960px) {
         background-image: url('../images/parameters/parametr_vector_desktop.svg');
@@ -1296,7 +1299,7 @@ body {
     border-radius: 10px;
     padding-top: 36px;
   
-    @media screen and (min-width: 1920px) {
+    @media screen and (min-width:1960px) {
         width: 1017px;
         height: 763px;
         position: absolute;
