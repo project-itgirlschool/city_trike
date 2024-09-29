@@ -1007,6 +1007,7 @@ a:hover {
     width: 13px;
     padding-bottom: 3px;
     padding-right: 5px;
+    margin-left: 20px;
 }
 
 .drivers__title {
@@ -1046,11 +1047,9 @@ a:hover {
     width: 100%;
     max-width: 375px;
     padding-right: 20px;
-
-    @media screen and (min-width:1024px) {
-        padding-left: 200px;
+    margin-left: 20px;
     }
-}
+
 
 .diplomas__tittle {
     color: rgba(255, 255, 255, 0.74);
